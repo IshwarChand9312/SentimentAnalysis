@@ -1,5 +1,6 @@
 import streamlit as st
 import nltk
+nltk.download('wordnet')
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 st.write("# Real Time Sentiment Analysis")
 
